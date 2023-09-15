@@ -1,0 +1,165 @@
+*{
+    padding : 0;
+    margin:0;
+    box-sizing:content-box;
+   
+  }
+  html {
+      box-sizing: border-box;
+      font-size: 62.5%;
+      scroll-behavior: smooth;
+  }
+  * a{
+    text-decoration:none;
+  }
+  body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.4;
+      color: white;
+  }
+  #navbar{
+    position:sticky;
+    top:0vh;
+    height:50px;
+  }
+  .nav-bar{
+    background-color:#be3144;
+    height:100%;
+    display:flex;
+   
+    justify-content:right;
+  }
+  
+  .nav-item{
+    padding:1.1rem;
+    margin:0 1rem;
+  }
+  .nav-item a{
+    color:white;
+   
+  }
+  
+  .nav-item:hover {
+    background-color: #45567d;
+  }
+  
+  #welcome-section{
+    height:calc(100vh - 50px);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  color:white;
+  }
+  
+  #welcome-section h4{
+    color:#be3144
+  }
+  #projects{
+    padding:40px 0;
+    background-color:#45567d;
+    display:flex;
+    flex-direction:column;
+  }
+  .project{
+    width:33%;
+    overflow:hidden;
+    margin:10px;
+  }
+  .allProjects{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  #projects h2{
+    text-align:center;
+    color:white;
+    text-decoration:underline;
+    margin-bottom:20px;
+  }
+  .project img{
+   width:100%;
+   height: 80%;
+   object-fit:cover;
+   overflow:hidden;
+  }
+  .project-tile{
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  color:white;
+  
+  padding:5px;
+  }
+  
+  .project-tile p{
+    text-align:center;
+  font-size: 1rem;
+  
+  }
+  .project-tile:hover{
+    background-image: linear-gradient(62deg, #3a3d40 0%, #3a3d40 100%);
+  color:white;
+  }
+  #projects button{
+    width:80px;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  color:white;
+  padding:15px;
+  }
+  .sub{
+    margin-top:20px;
+    text-align:center;
+  }
+  
+  #projects button:hover{
+  background-image: linear-gradient(62deg, #be3144 0%, #be3144 100%);
+  }
+  footer{
+    position:relativ;
+    height:100vh;
+   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  
+   color:white;
+   display:flex;
+   flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  }
+  .social-icons a{
+    color:white;
+    text-decoration:none;
+  }
+  .social-icons a:hover{
+    position:relative;
+    top:3px;
+    color:white;
+    
+  }
+  
+  footer *{
+    margin:10px;
+  }
+  
+  .footer{
+  position:relative;
+  top:24vh;
+  display:flex;
+  width:100%;
+  justify-content:space-between;
+  border-top:3px solid #be3144;
+  padding:2rem 2rem;
+  
+  }
+  
+  @media (max-width: 61.25em)
+  html {
+      font-size: 58%;
+  }
+  
+  @media (max-width: 75em)
+  html {
+      font-size: 60%;
+  }

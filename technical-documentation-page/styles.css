@@ -1,0 +1,71 @@
+/* Common styles for multiple elements */
+.nav-link {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.nav-link:hover {
+    color: #e74c3c; /* Change link color on hover */
+}
+
+/* Sticky navbar styling */
+@media (min-width: 769px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+        justify-content: space-around;
+    }
+
+
+    /* Add a subtle shadow to the navbar */
+    #navbar {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        padding: 15px;
+    }
+
+    #navbar ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    #navbar hr {
+        display: block;
+        margin: 15px 0;
+        border: none;
+        border-top: 1px solid #ccc;
+    }
+}
+
+/* Styling for code blocks */
+.code {
+    margin-left: 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* General styling for sections */
+.main-section {
+    padding: 30px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional spacing for headers */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Style code blocks */
+pre {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}

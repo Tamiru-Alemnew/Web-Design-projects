@@ -21,17 +21,17 @@ This repository serves as a testament to the progress I've made as a web designe
 ### Project 3: Product Landing Page
 - **Description:** Showcase a product of choice with an engaging landing page that incorporates multimedia elements and responsive design.
 - **Skills:** Responsive layout techniques, media embedding, navigation bar creation.
-- [View Project](/product-landing)
+- [View Project](/product-landing-page)
 
 ### Project 4: Technical Documentation Page
 - **Description:** Develop a technical documentation page that explains a chosen topic, emphasizing clear organization and navigation.
 - **Skills:** Utilizing headings, code blocks, navigation menus, CSS for documentation.
-- [View Project](/tech-doc)
+- [View Project](/technical-documentation-page
 
 ### Project 5: Personal Portfolio
 - **Description:** Craft a portfolio website that showcases completed projects, highlighting skills and achievements.
 - **Skills:** Advanced layout and styling, responsive design optimization, project presentation.
-- [View Project](/portfolio)
+- [View Project](/personal-portfolio)
 
 ## Repository Structure
 
